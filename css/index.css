@@ -5,7 +5,26 @@ canvas{
   background-color:black;
   z-index:-1;
 }
-h1.Titile{
+
+a:link {color:#0000FF;}		/* 未被访问的链接 */
+a:visited {color:#DDDDDD;}	/* 已被访问的链接 */
+a:hover {color:#FF00FF;}	/* 鼠标指针移动到链接上 */
+a:active {color:#FF0000;}	/* 正在被点击的链接 */ 
+
+h1{
+  text-align: center;
+}
+
+h1.blog_title{
 	color:white;
 	font-size:100px;
+}
+
+#left_div{
+  float: left;
+}
+
+#right_div{
+  float: left;
+  background-color: white;
 }

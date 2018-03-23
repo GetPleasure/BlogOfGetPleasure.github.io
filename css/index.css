@@ -20,11 +20,11 @@ h1.blog_title{
 	font-size:100px;
 }
 
-#left_div{
+div#left_div{
   float: left;
 }
 
-#right_div{
+div#right_div{
   float: left;
   background-color: white;
 }
